@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Heart disease prediction</title>
+</head>
+<body>
+    <h2> Heart disease prediction </h2>
+
+    <form method="POST" action="/predict">
+
+        <label>Gender : </label>
+        <select name="male" required>
+            <option value="1">Male</option>
+            <option value="0">Female</option>
+        </select>
+        <br>
+        <br>
+
+        <label>Age : </label>
+        <input type="text" name="age">
+        <br>
+        <br>
+
+        <label>Number of degrees : </label>
+        <select name="education" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <br>
+        <br>
+
+        <label>Current Smoker? : </label>
+        <select name="currentSmoker" required>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select>
+        <br>
+        <br>
+
+        <label>Cigarettes per day : </label>
+        <input type="text" name="cigsPerDay">
+        <br>
+        <br>
+
+        <label>Take BP Medicines? : </label>
+        <select name="BPMeds" required>
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+        </select>
+        <br>
+        <br>
+
+        <label>Prevalent stroke? : </label>      
+        <select name="prevalentStroke" required>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select>
+        <br>
+        <br>
+
+        <label>Prevalent hypertension? : </label>
+        <select name="prevalentHyp" required>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select>
+        <br>
+        <br>
+
+        <label>Diabetic? : </label>
+        <select name="diabetes" required>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select>
+        <br>
+        <br>
+
+        <label>Total Cholesterol : </label>
+        <input type="text" name="totChol">
+        <br>
+        <br>
+
+        <label>Systolic BP : </label>
+        <input type="text" name="sysBP">
+        <br>
+        <br>
+
+        <label>Diastolic BP : </label>
+        <input type="text" name="diaBP">
+        <br>
+        <br>
+
+        <label>BMI : </label>
+        <input type="text" name="BMI">
+        <br>
+        <br>
+
+        <label>Heart beats rate : </label>
+        <input type="text" name="heartRate">
+        <br>
+        <br>
+
+        <label>Glucose level : </label>
+        <input type="text" name="glucose">
+        <br>
+        <br>
+        
+    </form>
+
+</body>
+</html>
